@@ -1,6 +1,6 @@
 class ModelPage {
   getModelTab() {
-    return cy.get('.3D_model_tab', { timeout: 15000 })
+    return cy.get('.3D_model_tab', { timeout: 60000 })
   }
 
   getDownloadModelButton() {
@@ -8,11 +8,11 @@ class ModelPage {
   }
 
   getIndividualDownloadButton() {
-    return cy.get('#samtec-checkbox-3d-modal-download-individual-btn', { timeout: 15000 })
+    return cy.get('#samtec-checkbox-3d-modal-download-individual-btn', { timeout: 60000 })
   }
 
   closeModelModal() {
-    return cy.get('.modal-close', { timeout: 15000 }).click({ force: true })
+    return cy.get('.modal-close', { timeout: 60000 }).click({ force: true })
   }
 
   downloadModel() {

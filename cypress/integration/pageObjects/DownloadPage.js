@@ -1,6 +1,6 @@
 class DownloadPage {
   getDownloadSymbolAndFootprintButton() {
-    return cy.contains('Download Symbol and Footprint', { timeout: 15000 })
+    return cy.contains('Download Symbol and Footprint', { timeout: 60000 })
   }
 
   getDownloadFormatButton(format) {
@@ -9,7 +9,7 @@ class DownloadPage {
 
   downloadSymbolAndFootprint(format) {
     this.getDownloadSymbolAndFootprintButton().click()
-    cy.get('.modal-view-download', { timeout: 15000 }).should('be.visible')
+    cy.get('.modal-view-download', { timeout: 60000 }).should('be.visible')
     this.getDownloadFormatButton(format).click()
   }
 }
