@@ -44,4 +44,4 @@ Please refer to the individual test files for more details on the implementation
 
 ## Repository
 
-The code for the automated tests, including the test files and supporting modules, is available in the GitHub repository. It can be accessed  [here](https://github.com/Hamza572/SnapEDA-Download-Feature).
+The code for the automated tests, including the test files and supporting modules, is available in the GitHub repository. It can be accessed  [here](https://github.com/engr-waqas/snapeda-cypress-test-project).
